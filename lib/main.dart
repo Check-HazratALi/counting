@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         appBar: AppBar(
           title: Center(child: Text("Calculate")),
-          backgroundColor: Colors.deepPurple.withOpacity(.5),
+          backgroundColor: Colors.deepPurple.withValues(alpha:.5),
         ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
